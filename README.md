@@ -4,7 +4,12 @@
 </div>
 
 
-* Submission for Mumbai Hackathon 2019
+* Submission for [Mumbai Hackathon](https://github.com/MumbaiHackathon/) 2019
+
+## Functionalities
+* Real-Time Doodling Platform
+* Create or join rooms with friends
+
 
 ## Contributors
 * [Shivanee Jaiswal](https://www.github.com/shivaneej)
