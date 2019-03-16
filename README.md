@@ -1,5 +1,5 @@
 # Professor-Doodle :black_nib:
-<img src=".images/icon.png" height="100" width="100">
+<img src=".icon.png" height="100" width="100">
 
 * Submission for Mumbai Hackathon 2019
 
