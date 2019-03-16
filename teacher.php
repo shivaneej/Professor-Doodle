@@ -9,6 +9,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <style type="text/css">
+    .card
+    {
+      margin: auto;
+    }
     .card-body
     {
       margin: auto;
