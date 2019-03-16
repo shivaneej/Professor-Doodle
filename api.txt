@@ -1,3 +1,4 @@
 1. Get android canvas image using Object ID:
     URL: http://192.168.1.160:1234/drawing.php?id=<ObjectID in string>
     response: <image in base64>
+    e.g. /drawing.php?id=5c8bf4bd936ec8189c0df5bb
