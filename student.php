@@ -49,6 +49,7 @@
 			}
 
 		</style>
+		<title>PDoodle</title>
 	</head>
 	<body>
 
@@ -132,7 +133,7 @@
 				$_SESSION['stuPwd']=$pass2;			
 				$_SESSION['status']="loggedin";
 				echo "<script type='text/javascript'>alert('Registration Successful');</script>";
-				header("location://www.facebook.com");	
+				header("teacher.php");	
 			}	 
 			else
 			{
@@ -154,7 +155,7 @@
 					$_SESSION['stuEmail']=$loginEmail;
 					$_SESSION['stuPwd']=$pass1;			
 					$_SESSION['status']="loggedin";
-					echo "<script type='text/javascript'>alert('Login Successful');</script>"; 
+					echo "<script type='text/javascript'>alert('Login Successful'); window.location('teacher.php');</script>"; 
 
 			}
 			else			
