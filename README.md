@@ -14,9 +14,13 @@
 
 ## Demo
 <div align="center">
+* ###### Webpage 
   <img src="website.gif" width="500px">
+* ###### Android App
   <img src="mobile.gif" width="500px">
 </div>
+
+> <b>Note</b>: Can be used for more than 2 devices simultaneously 
 
 ## Technology Stack
 * Android Studio
