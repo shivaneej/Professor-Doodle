@@ -12,6 +12,12 @@
 * Works for Android apps :iphone: as well as web :computer: 
 * Download your masterpiece :fire:
 
+## Demo
+<div align="center">
+  <video src ="website.mp4" width = 500px>
+  <video src ="mobile.mp4" width = 500px>
+</div>
+
 ## Technology Stack
 * Android Studio
 * MongoDB 
