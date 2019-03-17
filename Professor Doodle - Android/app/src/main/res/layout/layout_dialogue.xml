@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brush Size"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/radius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter radius size"
+        android:inputType="number"
+        android:layout_below="@+id/TV1"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

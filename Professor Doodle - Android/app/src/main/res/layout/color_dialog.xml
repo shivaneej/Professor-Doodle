@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose brush color..."
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="SpUsage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/ss"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/red"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FF0000"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/green"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#008000"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/yellow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFFF00"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/blue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#0000ff"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/white"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/black"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#000"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
