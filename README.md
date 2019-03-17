@@ -23,8 +23,8 @@
 > <b>Note</b>: Can be used for more than 2 devices simultaneously 
 
 <h5>View Demo Videos Here:</h5>
-* [Web Page]()
-* [Android App]()
+* [Web Page](https://github.com/shivaneej/Professor-Doodle/blob/master/Demo%20Videos/webpage.mp4)
+* [Android App](https://github.com/shivaneej/Professor-Doodle/blob/master/Demo%20Videos/androidapp.mp4)
 
 
 ## Technology Stack
