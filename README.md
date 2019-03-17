@@ -14,10 +14,10 @@
 
 ## Demo
 <div align="center">
-* ###### Webpage 
+###### Webpage 
   <img src="website.gif" width="500px">
-* ###### Android App
-  <img src="mobile.gif" width="500px">
+###### Android App
+  <img src="mobile.gif" width="200px">
 </div>
 
 > <b>Note</b>: Can be used for more than 2 devices simultaneously 
