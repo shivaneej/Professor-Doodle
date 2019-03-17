@@ -39,11 +39,11 @@
 #black
 {
 	background-color: ;
-	top: 30%;
+	top: 25%;
 }
 #white
 {
-	top: 35%;
+	top: 30%;
 }
 .icon
 {
@@ -56,7 +56,7 @@
 }
 .brushSize
 {
-	top: 40%;
+	top: 35%;
 	position: relative;
     margin-left: 20%;
 }
@@ -72,7 +72,7 @@
 	position: relative;
     width: 30px;
     height: 30px;
-    top:44%;
+    top:40%;
     margin: auto;
 }
 .newBtn
