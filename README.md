@@ -14,8 +14,8 @@
 
 ## Demo
 <div align="center">
-  <video src ="website.mp4" width = 500px>
-  <video src ="mobile.mp4" width = 500px>
+  <img src="website.gif" width="500px">
+  <img src="mobile.gif" width="500px">
 </div>
 
 ## Technology Stack
