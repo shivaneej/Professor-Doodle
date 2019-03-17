@@ -22,7 +22,7 @@ onmessage = function(e){
   var data = e.data;
   //console.log(data);
   var xhr = new XMLHttpRequest();
-  var url = "http://192.168.29.40:2234/drawing.php";
+  var url = "http://192.168.43.40:2234/drawing.php";
   xhr.open("POST", url, true);
   //xhr.setRequestHeader("Content-Type", "application/json");
   xhr.onreadystatechange = function () {

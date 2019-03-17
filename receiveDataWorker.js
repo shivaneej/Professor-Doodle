@@ -1,4 +1,4 @@
-var theUrl="http://192.168.29.40:2234/drawing.php?id=";
+var theUrl="http://192.168.43.40:2234/drawing.php?id=";
 
 var id="";
 onmessage= function(event){
