@@ -14,9 +14,9 @@
 
 ## Demo
 <div align="center">
-###### Webpage 
+	<b>Webpage </b><br>
   <img src="website.gif" width="500px">
-###### Android App
+	<b>Android App</b><br>
   <img src="mobile.gif" width="200px">
 </div>
 
