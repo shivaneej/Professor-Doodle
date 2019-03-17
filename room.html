@@ -26,6 +26,9 @@
             <i class="material-icons icon">brush</i>
             <input type="number" name="brushSize" value="2" class="brushSizeBox" onchange="changeSize();">
         </div>
+        <div class="dl">
+            <a id="download" download="image.png"><button type="button" onClick="download()" class="newbtn"><i class="material-icons" style="font-size: 30px;">cloud_download</i></button></a>
+        </div>
         </aside>
         
         
@@ -236,6 +239,13 @@ function updateCanvas(x){
   };
   
 }
+function download(){
+        var download = document.getElementById("download");
+        var image = document.getElementById("canv").toDataURL("image/png")
+                    .replace("image/png", "image/octet-stream");
+        download.setAttribute("href", image);
+
+    }
 
 /*window.onload = function () {
     var url = document.location.href,
