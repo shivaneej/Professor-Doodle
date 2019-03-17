@@ -10,6 +10,7 @@
 * Real-Time Doodling Platform
 * Create or join rooms with friends
 * Works for Android apps :iphone: as well as web :computer: 
+* Download your masterpiece :fire:
 
 ## Technology Stack
 * Android Studio
